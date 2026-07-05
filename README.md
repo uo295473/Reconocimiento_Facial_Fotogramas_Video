@@ -4,7 +4,7 @@ Comparación de 7 modelos de reconocimiento facial en la tarea de identificació
 
 ## Modelos evaluados
 
-- Modelo de referencia: "modelo_de_referencia/face_reid.pth"
+- Modelo de referencia: `modelo_de_referencia/face_reid.pth`
 - VGG-Face, FaceNet, FaceNet512 (implementados con DeepFace)
 - ArcFace iResNet-50 (modelo w600k r50.onnx de InsightFace): https://drive.google.com/file/d/1BmDRrhPsHSbXcWZoYFPJg2KJn1sd3QpN/view
 - ArcFace MobileFaceNet (modelo w600k mbf.onnx de InsightFace): https://drive.google.com/file/d/1pKIusApEfoHKDjeBTXYB3yOQ0EtTonNE/view
