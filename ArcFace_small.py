@@ -1,5 +1,5 @@
 """
-GENERACIÓN DE EMBEDDINGS: ArcFace MobileFaceNet
+GENERACIÓN DE EMBEDDINGS: ArcFace MobileFaceNet (Entorno Torch)
 
 Este script recorre los datasets de imágenes de caras y genera los embeddings faciales de cada imagen con
 el modelo ArcFace MobileFaceNet. Después, los almacena en ficheros .pkl

@@ -1,5 +1,5 @@
 """
-GENERACIÓN DE EMBEDDINGS: ArcFace IResNet-50
+GENERACIÓN DE EMBEDDINGS: ArcFace IResNet-50 (Entorno Torch)
 
 Este script recorre los datasets de imágenes de caras y genera los embeddings faciales de cada imagen con
 el modelo ArcFace IResNet-50. Después, los almacena en ficheros .pkl

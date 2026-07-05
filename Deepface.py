@@ -1,5 +1,5 @@
 """
-GENERACIÓN DE EMBEDDINGS: DeepFace (Facenet, Facenet512, VGG-Face)
+GENERACIÓN DE EMBEDDINGS: DeepFace (Facenet, Facenet512, VGG-Face) (Entorno Conda)
 
 Este script recorre los datasets de imágenes de caras y genera los embeddings faciales de cada imagen con
 los tres modelos de DeepFace: Facenet, Facenet512 y VGG-Face. Después, los almacena en ficheros .pkl
