@@ -4,10 +4,10 @@ Comparación de 7 modelos de reconocimiento facial en la tarea de identificació
 
 ## Modelos evaluados
 
-- Modelo de referencia: `modelo_de_referencia/face_reid.pth`
-- VGG-Face, FaceNet, FaceNet512 (implementados con DeepFace)
-- ArcFace iResNet-50 (modelo `w600k_r50.onnx` de InsightFace): https://drive.google.com/file/d/1BmDRrhPsHSbXcWZoYFPJg2KJn1sd3QpN/view
-- ArcFace MobileFaceNet (modelo `w600k_mbf.onnx` de InsightFace): https://drive.google.com/file/d/1pKIusApEfoHKDjeBTXYB3yOQ0EtTonNE/view
+- Modelo de referencia: `face_reid.pth`
+- VGG-Face, FaceNet, FaceNet512 (implementados con [DeepFace](https://github.com/serengil/deepface/tree/master/deepface))
+- ArcFace iResNet-50 (modelo `w600k_r50.onnx` de [InsightFace](https://github.com/deepinsight/insightface/tree/master): https://drive.google.com/file/d/1BmDRrhPsHSbXcWZoYFPJg2KJn1sd3QpN/view
+- ArcFace MobileFaceNet (modelo `w600k_mbf.onnx` de [InsightFace](https://github.com/deepinsight/insightface/tree/master)): https://drive.google.com/file/d/1pKIusApEfoHKDjeBTXYB3yOQ0EtTonNE/view
 - AdaFace: https://drive.google.com/file/d/1BmDRrhPsHSbXcWZoYFPJg2KJn1sd3QpN/view
 
 ## Conjunto de datos
