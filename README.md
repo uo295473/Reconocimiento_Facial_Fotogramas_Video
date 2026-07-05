@@ -6,9 +6,16 @@ Comparación de 7 modelos de reconocimiento facial en la tarea de identificació
 
 - Modelo de referencia: `modelo_de_referencia/face_reid.pth`
 - VGG-Face, FaceNet, FaceNet512 (implementados con DeepFace)
-- ArcFace iResNet-50 (modelo w600k r50.onnx de InsightFace): https://drive.google.com/file/d/1BmDRrhPsHSbXcWZoYFPJg2KJn1sd3QpN/view
-- ArcFace MobileFaceNet (modelo w600k mbf.onnx de InsightFace): https://drive.google.com/file/d/1pKIusApEfoHKDjeBTXYB3yOQ0EtTonNE/view
+- ArcFace iResNet-50 (modelo `w600k_r50.onnx` de InsightFace): https://drive.google.com/file/d/1BmDRrhPsHSbXcWZoYFPJg2KJn1sd3QpN/view
+- ArcFace MobileFaceNet (modelo `w600k_mbf.onnx` de InsightFace): https://drive.google.com/file/d/1pKIusApEfoHKDjeBTXYB3yOQ0EtTonNE/view
 - AdaFace: https://drive.google.com/file/d/1BmDRrhPsHSbXcWZoYFPJg2KJn1sd3QpN/view
+
+## Conjunto de datos
+- LFW original: https://www.kaggle.com/datasets/sayuksh/labeled-faces-in-the-wild-home
+- *LFW-deepfunneled*: https://www.kaggle.com/datasets/jessicali9530/lfw-dataset/data
+### Generación de las versiones de LFW
+- `LFW_filtrar_y_recortar.py`
+- `LFW_añadir_ruido.py`
 
 ## Configuración sin desconocidos
 
